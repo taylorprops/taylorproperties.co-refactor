@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use App\Listings;
 use Illuminate\Http\Request;
 
-class Listings extends Controller
+class ListingsController extends Controller
 {
 
     public function featuredListings()

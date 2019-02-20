@@ -15,5 +15,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/', 'Listings@featuredListings');
+Route::get('/', 'ListingsController@featuredListings');
 
